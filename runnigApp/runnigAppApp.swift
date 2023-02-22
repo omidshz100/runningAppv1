@@ -11,7 +11,7 @@ import SwiftUI
 struct runnigAppApp: App {
     var body: some Scene {
         WindowGroup {
-            DistanceView()
+            MainPage()
         }
     }
 }
