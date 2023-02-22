@@ -21,10 +21,7 @@ struct MainPage: View {
                 DistanceView()
                     .frame(width: 300.0, height: 300.0)
                     .offset(y:-80)
-                  
-               
                 InfoView()
-                    
                 NavigationLink(destination: Running(), label: {
                     Text("Start")
                 })
@@ -38,11 +35,6 @@ struct MainPage: View {
                 .font(.system(size: 40))
                 .fontWeight(.bold)
                 .offset( y: 80)
-                
-                
-                
-                
-                
               }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(linearColor)
